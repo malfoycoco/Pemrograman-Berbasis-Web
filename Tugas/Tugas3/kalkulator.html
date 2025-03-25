@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Pertemuan 3 - Kalkulator</title>
+</head>
+
+<style>
+    body {
+        font-family: Sylfaen;
+    }
+</style>
+<body>
+    <h1 style="font-family: Sylfaen; margin-left: 65px;">KALKULATOR YUK</h1>
+
+    <form id="calculatorForm">
+        <label for="angka1">Angka Pertama</label>
+        <label for="operator" style="margin-left: 55px;">Operator</label>
+        <label for="angka2" style="margin-left: 60px;">Angka Kedua</label>
+        <br>
+        <input type="number" name="angka1" id="angka1" style="width:100px; border-radius:4px; -moz-border-radius:4px; border-color:lightblue; background-color: rgb(195, 240, 255); height:30px; border-style:solid; font-family:Sylfaen;">
+            <select name="operator" id="operator" style="width:60px; border-radius:4px; -moz-border-radius:4px; border-color:lightblue; background-color: rgb(195, 240, 255); height:35px; border-style:solid; font-family:Sylfaen; margin-left: 52px;">
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">*</option>
+                <option value="/">/</option>
+            </select>
+        <input type="number" name="angka2" id="angka2" style="width:100px; border-radius:4px; -moz-border-radius:4px; border-color:lightblue; background-color: rgb(195, 240, 255); height:30px; border-style:solid; font-family:Sylfaen; margin-left: 52px;">
+
+        <br><br>
+
+        <input type="button" onclick="calculate()" value="Hitung" style="color:white; font-weight:bold; width:70px; border-radius:4px; -moz-border-radius:4px; background-color:rgb(0, 191, 255); height:30px; border-style:solid; border-color: rgb(0, 191, 255); font-family:Sylfaen; margin-left: 157px"></input>
+
+    </form>
+
+    <div id="result"></div>
+
+    <script src="kalkulator.js"></script>
+</body>
+</html>

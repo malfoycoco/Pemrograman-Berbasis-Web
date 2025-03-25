@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tugas 4 PBW</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .card-img-top {
+            height: 200px; 
+            object-fit: cover; 
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+    <div class="container">
+        <a class="navbar-brand d-flex align-items-center fw-bold" href="#">
+            <img src="https://tse3.mm.bing.net/th?id=OIP.FHKwTsU-YpZxwCbxiYIj0wHaFi&pid=Api&P=0&h=180" width="30" height="30" class="me-2" alt="Makan Yuk Logo">
+            Makan Yuk!
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Contact Me</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+    <!-- Card Section -->
+    <div class="container mt-4">
+        <div class="row g-4"> <!-- g-4 untuk memberi jarak antar card -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://images.pexels.com/photos/1854652/pexels-photo-1854652.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="Tiramisu Cake">
+                    <div class="card-body">
+                        <h5 class="card-title">Tiramisu Cake</h5>
+                        <p class="card-text">A classic Italian dessert with layers of coffee-soaked sponge cake, creamy mascarpone cheese, cocoa powder for a rich and balanced taste.</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="Pancake">
+                    <div class="card-body">
+                        <h5 class="card-title">Pancake</h5>
+                        <p class="card-text">Soft and fluffy pancakes made from a light batter, served with syrup, fruits, or cream, making them a delightful treat for any time of the day.</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://images.pexels.com/photos/1055270/pexels-photo-1055270.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="Cupcake">
+                    <div class="card-body">
+                        <h5 class="card-title">Cupcake</h5>
+                        <p class="card-text">A small and delightful cake topped with creamy frosting and sprinkles, offering a perfect balance of sweetness and fluffiness in every bite.</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row g-4 mt-3"> 
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://images.pexels.com/photos/1639567/pexels-photo-1639567.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="Mille Crepe">
+                    <div class="card-body">
+                        <h5 class="card-title">Mille Crepe</h5>
+                        <p class="card-text">A delicate French dessert made of multiple thin crepe layers stacked with smooth cream filling, offering a rich yet light texture.</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://images.pexels.com/photos/3323686/pexels-photo-3323686.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="Cheesecake">
+                    <div class="card-body">
+                        <h5 class="card-title">Cheesecake</h5>
+                        <p class="card-text">A smooth and creamy dessert with a rich cheese-flavored filling on a buttery biscuit crust, often topped with fruit or chocolate.</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://images.pexels.com/photos/1291712/pexels-photo-1291712.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="Cookie">
+                    <div class="card-body">
+                        <h5 class="card-title">Cookie</h5>
+                        <p class="card-text">A crispy or chewy baked delight made with butter, sugar, and flour, often packed with chocolate chips, nuts, or dried fruits.</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Form -->
+    <div class="container mt-5">
+        <h2 class="text-primary">Contact Me</h2>
+        <p>If you need help, please contact us via the form below</p>
+        <form>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter email">
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <label for="firstName" class="form-label">First Name</label>
+                    <input type="text" class="form-control" id="firstName" placeholder="Enter Name">
+                </div>
+                <div class="col-md-6">
+                    <label for="lastName" class="form-label">Last Name</label>
+                    <input type="text" class="form-control" id="lastName" placeholder="Enter Name">
+                </div>
+            </div>
+            <div class="mb-3 mt-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="3" placeholder="Write your message..."></textarea>
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="terms">
+                <label class="form-check-label" for="terms">I agree to the terms and conditions</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Send</button>
+        </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
